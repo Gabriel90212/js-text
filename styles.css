@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+#text
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-transform: uppercase;
+    font-size: 6em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    line-height: 0.9em;
+    letter-spacing: 2px;
+    transform: rotate(-28deg) skew(25deg);
+}
